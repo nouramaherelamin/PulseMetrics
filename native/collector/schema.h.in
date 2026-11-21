@@ -1,0 +1,2 @@
+/* Generated from database/schema.sql by CMake. */
+static const char pm_schema_sql[] = { @SCHEMA_BYTES@ 0 };

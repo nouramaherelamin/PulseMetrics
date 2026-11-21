@@ -1,0 +1,22 @@
+[server]
+address = "127.0.0.1"
+headless = true
+fileWatcherType = "none"
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "dark"
+primaryColor = "#2DE0C4"
+backgroundColor = "#050A14"
+secondaryBackgroundColor = "#0B1424"
+textColor = "#E6EEFB"
+font = "sans-serif"
+baseRadius = "0.75rem"
+borderColor = "#1B2A44"
+showWidgetBorder = true
+
+[theme.sidebar]
+backgroundColor = "#070D1A"
+secondaryBackgroundColor = "#101B30"

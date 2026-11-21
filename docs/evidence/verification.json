@@ -1,0 +1,97 @@
+{
+  "utc": "2026-11-17T17:22:26.138960+00:00",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.14.6",
+  "configuration": "Release",
+  "git_commit": "b73279c29119c61200136b74171792a0be55db38",
+  "working_tree_dirty": false,
+  "packages": {
+    "streamlit": "1.58.0",
+    "plotly": "6.7.0",
+    "pandas": "3.0.3",
+    "pytest": "9.0.3"
+  },
+  "steps": [
+    {
+      "command": [
+        "python",
+        "scripts/build.py",
+        "--configuration",
+        "Release"
+      ],
+      "exit_code": 0,
+      "seconds": 4.848
+    },
+    {
+      "command": [
+        "python",
+        "-m",
+        "pytest",
+        "tests",
+        "-v",
+        "-p",
+        "no:cacheprovider",
+        "--basetemp",
+        "<workspace>\\PulseMetrics_V2_BUILD\\evidence\\verification-20261117T172226Z\\test-data"
+      ],
+      "exit_code": 0,
+      "seconds": 53.787
+    }
+  ],
+  "passed": true,
+  "binaries": {
+    "pulse_sender.exe": "442ef8c7d5c29b8eadd07d5fb67fc0411b24640781cdaef83b3393485f2cab5c",
+    "pulsecollector_v2.exe": "282765d4254f43ad0370be1d9aa7110a19cc18961843cb58a449f29cde45c16b",
+    "pulsemonitor_v2.exe": "545a6fdca38baa792333f1b378de7ca0a8904178f0b09d77e7986d88256fa8e0",
+    "test_contract.exe": "e6bcca388ce5a672a1b253f16add7970cc41f783a4f3a54d9b70323d3bccfa3e",
+    "test_persistence_v2.exe": "573c34a072fafb73a36bcb48d9b2d83764ffee659e2f884f471e6adade228f4c"
+  },
+  "source_sha256": {
+    ".streamlit/config.toml": "8531a2656e701e5c30243961ccc7621919239eb621d0736dd3335bfa9e911104",
+    "CMakeLists.txt": "44fc0726b445a5a318ff254d4645dd4618a6e2de6ed59c9ecaa0db69bc26a8dc",
+    "config/example.json": "d047995a8e13747d5fe865def3225d79d80a28d917987f19c91d77231669dd8b",
+    "database/schema.sql": "578b341c3a391e9f933f60dfc62e2ee6cff0e4457da18fb6f774af2308ec517b",
+    "native/collector/schema.h.in": "7d7acfad3de152295591ed331b7342cf08ccd0590563db0da18f5bff63295dc3",
+    "native/collector/src/engine_v2.c": "cdcd795481e9649e2ccf6fabe0e8ff242353abe7897ee8db15a8f1cdec6a2f3b",
+    "native/core/include/pm.h": "281f55ad4c2fc42664233e582184732c88b0796788bd41a265dd1d43836e00ae",
+    "native/core/include/pm_db.h": "edabf50a66b3748271061215ee7ee7c771b0cfd8573a20918af52f9a8fa65e82",
+    "native/core/include/pm_json.h": "18d42481a771f49c02cd00744c322dbadaa65fcfd3cf3c7942b52252c31f7894",
+    "native/core/src/clock_v2.c": "5ab1aa48a3e65ac720885dd197f9f60238ad5ba5fbe876fc99559c1852b81118",
+    "native/core/src/json_v2.c": "5a9ee4e1709047db2d6adceef0de3966b1f2e7786d0deaeb5e3b14ad20339306",
+    "native/core/src/persistence_v2.c": "13db2e7e754d56c286453d71fb15f59d9bcf560746447409eb7d296beb2ac25e",
+    "native/core/src/protocol_v2.c": "70f04fb8040d06dbbd45ad0c1de89bbb6b5c5d2f9db24ad0bc9e7b5bbe9a200c",
+    "native/core/src/store_v2.c": "c3941cc82339c901d2a6ee8519af13402779f28259552de25baa6bdcf9b14f5a",
+    "native/monitor/src/monitor_v2.c": "909937488121bc91442154164064374ac589e9ea30e28b78bb8ed844180d193c",
+    "native/sender/main.c": "879b7bf5e4f948ba7329b6e8fd12dab4c93846cfd058804088a52c4e8930b0f4",
+    "native/tests/test_contract.c": "27832677a9638bae72fede4c8b2e74c2fcae958169c05c1eb4c6e348f284836d",
+    "native/tests/test_persistence_v2.c": "9f5761bd335cdd23bbe248e03bb08c87cb11e84a8ca6dcc54e08f8a5e0655e70",
+    "native/vendor/cJSON.c": "2ba7d5d91c0d02452754c59bc540eb1a7f2bb0ef155e532e79806708599cfb83",
+    "native/vendor/cJSON.h": "97f212722c87c0cdd49a24d1e13b7fdd35b0259ef60749a88766ebcbd52b22a6",
+    "native/vendor/sqlite3.c": "9ca336fbcbff9f1d78b4f45b6a19583fcc097192310dd2f5f6cd43b9a33d7d69",
+    "native/vendor/sqlite3.h": "882ad3c0448d0324fb3a6b1a85333a9173d539ac669c9972ae1f03722ff86282",
+    "python/pulsemetrics/__init__.py": "334f791381c05233f8e17b233d2a33ecfbe571f5a6129f9ec1fb9c797290ebcf",
+    "python/pulsemetrics/analytics.py": "19f143d8102fa43fc1f24c2f49a21c82ba132c313bf7806625a9552acf11b1fa",
+    "python/pulsemetrics/child.py": "13cd2ae564d1f8e2b34dd2eb14f9ac5c5083c3c9a217eabdcc893f4ddc90bd7a",
+    "python/pulsemetrics/controller.py": "3eb70f71de5211d5888314580def31bd9c3c61ae6756d8db15b673d9a146cb1a",
+    "python/pulsemetrics/data.py": "055d1f21a8c200c1bff1cd98d122482dc475cf18d787e63421f2c02e23f8b7c3",
+    "python/pulsemetrics/ipc.py": "9738cebf8c9d60725e60a08f16b9d32584beaa62a8e087d29592c76b61df997a",
+    "python/pulsemetrics/ui/__init__.py": "bf868b770bf6c4bb5e221049fff111bedfc2d62123f2dcebb03c24ed693a167e",
+    "python/pulsemetrics/ui/app.py": "e19d0843710635baeafa5aadd502194f76f1d5a9c6de6f02d04e57b029149378",
+    "python/pulsemetrics/ui/components.py": "60ea795dc2bb5740900fc6ff1febcd4928e673478a782b9031ca6dc25daa5d6a",
+    "python/pulsemetrics/ui/pages.py": "256f055fc79e90ca38ffe2d625cfd1aebf32d4d39d887c3c806af04e0c9179a9",
+    "python/pulsemetrics/windows.py": "65ec3e80f5ce75caeac3a7d096babae0ac004a0493dd9075373c2dc2ae96e486"
+  },
+  "evidence_directory": "../PulseMetrics_V2_BUILD/evidence/verification-20261117T172226Z",
+  "fresh_release_build_evidence": "../PulseMetrics_V2_BUILD/evidence/verification-20261117T024734Z",
+  "native_ctest": {
+    "passed": 2,
+    "failed": 0
+  },
+  "pytest": {
+    "passed": 14,
+    "failed": 0,
+    "seconds": 50.33
+  },
+  "visual_acceptance": "Pending project-lead manual review; no new graphical automation requested.",
+  "sqlite_warning": "Fresh GCC16.2 Release build: sqlite3Strlen30 inlined into sqlite3ColumnSetColl, -Wstringop-overread; unproven harmless, retained as dependency-review item."
+}

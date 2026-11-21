@@ -1,0 +1,21 @@
+# ninja log v7
+34	576	8169815551444632	CMakeFiles/pulse_json.dir/native/vendor/cJSON.c.obj	7975b5ee11910b10
+578	922	8169815556880446	libpulse_json.a	d562789b039fd76b
+922	3287	8169815560324217	CMakeFiles/pulsecore.dir/native/core/src/clock_v2.c.obj	ac674cd8ade7430e
+3290	3505	8169815583996919	CMakeFiles/pulsecore.dir/native/core/src/protocol_v2.c.obj	2d71cd8684474ec3
+3506	3686	8169815586157327	CMakeFiles/pulsecore.dir/native/core/src/store_v2.c.obj	4ac9fc1c18664740
+3686	4929	8169815587960595	CMakeFiles/pulsecore.dir/native/core/src/json_v2.c.obj	169313844b1073c5
+4930	5348	8169815600419776	CMakeFiles/pulsecore.dir/native/core/src/persistence_v2.c.obj	c2de49b1a2b26986
+5349	8937	8169815604591264	CMakeFiles/pulsecollector_v2.dir/native/collector/src/engine_v2.c.obj	3082e2b021c857a6
+8944	12029	8169815640554611	CMakeFiles/pulsemonitor_v2.dir/native/monitor/src/monitor_v2.c.obj	b9313581fddf3c2b
+12031	14400	8169815671415954	CMakeFiles/pulse_sender.dir/native/sender/main.c.obj	152e6fd694cb58b3
+14402	14943	8169815695120657	CMakeFiles/test_persistence_v2.dir/native/tests/test_persistence_v2.c.obj	10b44de40cd9dc48
+14944	15351	8169815700537878	CMakeFiles/test_contract.dir/native/tests/test_contract.c.obj	7b1a0d55bcf0b06d
+26	26947	8169815551364841	CMakeFiles/pulse_sqlite.dir/native/vendor/sqlite3.c.obj	4143f374441238ec
+26948	27202	8169815820585406	libpulse_sqlite.a	bdfdcb475161fac4
+27202	27417	8169815823124806	libpulsecore.a	1101b2a016c40511
+27439	27829	8169815825492576	bin/pulsemonitor_v2.exe	7ccefd83299cd06b
+27418	27866	8169815825269803	bin/pulsecollector_v2.exe	5cd93faca2d22257
+27829	28134	8169815829395144	bin/pulse_sender.exe	7baf1f0865efb9fa
+27866	28307	8169815829766018	bin/test_persistence_v2.exe	8053e0e0b64bf9e
+28135	28509	8169815832447051	bin/test_contract.exe	20eae0745c9f6d85

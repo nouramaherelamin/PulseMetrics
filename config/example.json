@@ -1,0 +1,19 @@
+{
+  "sample_seconds": 5,
+  "window_seconds": 10,
+  "refresh_seconds": 5,
+  "retention_days": 7,
+  "udp_port": 8125,
+  "ui_port": 8501,
+  "sources": [
+    {
+      "key": "app.sender",
+      "label": "Measured metric sender",
+      "metrics": [
+        {"name": "operations", "type": "counter", "unit": "count"},
+        {"name": "in_flight", "type": "gauge", "unit": "count"},
+        {"name": "operation_duration", "type": "timer", "unit": "ms"}
+      ]
+    }
+  ]
+}

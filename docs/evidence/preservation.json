@@ -1,0 +1,50 @@
+{
+  "checked_utc": "2026-11-17T17:23:12.575044+00:00",
+  "received": {
+    "checked": 1079,
+    "matched": 1076,
+    "differences": [
+      {
+        "path": "PulseMetrics\\dist\\database\\pulsemetrics.db",
+        "baseline_sha256": "253126d8d9af47b6bb5da796459fda3831552707d0bc30dfcc8dbd68057ff30f",
+        "current_sha256": "72275cd532d867f898948192e6e0fdf6315f485f58a7e81420b05e038c1841ab",
+        "modified_utc": "2026-11-16T12:25:43.731542+00:00"
+      },
+      {
+        "path": "PulseMetrics\\dist\\logs\\collector.log",
+        "baseline_sha256": "3a9b37a2695ad2b88a4dc5df7c2bd77049137fa4a11dca554fad4fba309c0822",
+        "current_sha256": "5996f3832d768e7d108126da8dcbd82da7e3bda34a66f66703aae205c3f21f9a",
+        "modified_utc": "2026-11-16T12:25:43.735250+00:00"
+      },
+      {
+        "path": "PulseMetrics\\dist\\logs\\monitor.log",
+        "baseline_sha256": "f52dedc835528218cafb042c9c1fcb2823327cbaf4e188f7c224889548318556",
+        "current_sha256": "fe72083d18b7f22ac4d370fc049ea57b743cb940c5db07fb1dac447545bbda05",
+        "modified_utc": "2026-11-16T12:25:43.737432+00:00"
+      }
+    ]
+  },
+  "specification": {
+    "checked": 1,
+    "matched": 1,
+    "differences": []
+  },
+  "initial_audit": {
+    "checked": 974,
+    "matched": 974,
+    "differences": []
+  },
+  "protected_audit": {
+    "checked": 82,
+    "matched": 82,
+    "differences": []
+  },
+  "approved_design": {
+    "checked": 5,
+    "matched": 5,
+    "differences": []
+  },
+  "added_received_files": [],
+  "full_preservation_passed": false,
+  "disposition": "Failed on three legacy runtime files; actor unverified. No restoration or baseline waiver performed. Project-lead review required."
+}

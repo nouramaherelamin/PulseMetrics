@@ -1,0 +1,6 @@
+{
+  "runtime_pins_checked": 44,
+  "failures": [],
+  "passed": true,
+  "scope": "Installed Windows runtime closure; fresh package acquisition not performed."
+}
